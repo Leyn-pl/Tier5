@@ -2,5 +2,5 @@ name: "t5"
 displayName: "[]Tier 5[]"
 author: "LEYN"
 description: "Adds T5 unit factory! [red](Nearly balanced)[]"
-version: "1.3"
+version: "1.4"
 minGameVersion: 126
