@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Omega alloy smelter
+description: Combines the best resources to create even more perfect.
+health: 80
+liquidCapacity: 0
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 90
+updateEffect: plasticburn
+consumes: {
+  power: 5.0
+    items:{
+     items:[
+      silicon/5
+      phase-fabric/3
+      surge-alloy/1
+      ]
+   }
+}
+requirements: [
+  lead/200
+  thorium/145
+  silicon/210
+  graphite/100
+]
+category: crafting
+research: alloy-smelter
+outputItem: omega-alloy/3

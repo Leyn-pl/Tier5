@@ -1,0 +1,18 @@
+name: Omega wall
+description: Incredibly durable wall, can self-repair and repair adjacent blocks.
+type: mendProjector
+health: 1320
+size: 1
+reload: 30
+range: 10
+healPercent: 1
+hasPower: true
+hasItems: false
+consumes: {
+  power: 0.05,
+}
+requirements: [
+  omega-alloy/6
+]
+category: defense
+research: surge-wall
