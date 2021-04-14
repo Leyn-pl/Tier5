@@ -14,5 +14,7 @@ consumes: {
 requirements: [
   omega-alloy/6
 ]
+phaseBoost: 0
+phaseRangeBoost: 0
 category: defense
 research: surge-wall
