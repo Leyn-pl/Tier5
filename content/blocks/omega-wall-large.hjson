@@ -14,5 +14,7 @@ consumes: {
 requirements: [
   omega-alloy/24
 ]
+phaseBoost: 0
+phaseRangeBoost: 0
 category: defense
 research: omega-wall
