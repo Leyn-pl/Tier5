@@ -2,5 +2,5 @@ name: "t5"
 displayName: "Tier 5"
 author: "LEYN"
 description: "Adds T5 unit factory and a few end-game blocks. [red](Nearly balanced)[]"
-version: "1.5.9"
+version: "1.5.11"
 minGameVersion: 126
