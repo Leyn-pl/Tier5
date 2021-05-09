@@ -2,5 +2,5 @@ name: "t5"
 displayName: "[#F4D38B]Tier 5[]"
 author: "LEYN"
 description: "Adds T5 unit factory and a few end-game blocks. (Nearly balanced)\n\n[accent]Help with ideas and bug hunting - OwlNotOwler[]"
-version: "1.5.15"
+version: "1.5.21"
 minGameVersion: 126
