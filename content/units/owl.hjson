@@ -42,7 +42,7 @@ weapons: [
   bullet: {
     type: ShrapnelBulletType
     length: 100
-    damage: 330
+    damage: 550
     width: 30
     serrationLenScl: 7
     serrationSpaceOffset: 60
@@ -72,7 +72,7 @@ weapons: [
   bullet: {
     type: ArtilleryBulletType
     speed: 3
-    damage: 150
+    damage: 120
     hitEffect: sapExplosion
     knockback: 0.8
     lifetime: 120
@@ -97,7 +97,7 @@ weapons: [
     fragBullet: {
       type: ArtilleryBulletType
       speed: 2
-      damage: 100
+      damage: 80
       hitEffect: sapExplosion
       knockback: 0.8
       lifetime: 90
@@ -120,7 +120,7 @@ weapons: [
       fragBullet: {
         type: ArtilleryBulletType
         speed: 1
-        damage: 50
+        damage: 40
         hitEffect: sapExplosion
         knockback: 0.4
         lifetime: 60
