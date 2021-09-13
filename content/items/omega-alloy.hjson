@@ -1,0 +1,7 @@
+type: Item
+name: Omega alloy
+description: A mixture of the three most valuable resources, very expensive and durable.
+cost: 2
+radioactivity: 0.15
+color: F4D38B
+research: surge-alloy

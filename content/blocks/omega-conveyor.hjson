@@ -1,0 +1,13 @@
+name: Omega Conveyor
+description: Moves compressed stacks of twenty items incredibly fast.
+type: StackConveyor
+requirements: [
+lead/1
+silicon/1
+omega-alloy/1
+]
+health: 150
+speed: 0.15
+itemCapacity: 20
+research: plastanium-conveyor
+category: distribution

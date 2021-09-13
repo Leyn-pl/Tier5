@@ -1,0 +1,46 @@
+type: ItemTurret
+name: Eradicator
+description: The most powerful turret, several of them are able to withstand the Owl. Needs cryofluid to work normally, shoots very slowly without it.
+health: 4840
+size: 4
+alternate: true
+spread: 8
+shots: 2
+range: 240
+coolantMultiplier: 7.5
+shootShake: 1
+shootSound: shootBig
+inaccuracy: 3
+ammoTypes: {
+  omega-alloy: {
+    type: BasicBulletType
+    width: 15
+    height: 21
+    lifetime: 60
+    speed: 7
+    pierceCap: 2
+    pierceBuilding: true
+    damage: 120
+    ammoMultiplier: 4
+    knockback: 0.2
+    frontColor: F4D38B
+    backColor: E3C27A
+  }
+} 
+requirements: [
+copper/900
+graphite/300
+thorium/250
+plastanium/175
+omega-alloy/250
+] 
+consumes: {
+  liquid: {
+    liquid: cryofluid
+    amount: 1
+    optional: true
+    booster: true
+  }
+} 
+category: turret
+research: spectre

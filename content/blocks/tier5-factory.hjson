@@ -1,0 +1,82 @@
+name: Tier 5 Factory
+description: Makes T5 units at once, skipping all upgrades.
+type: UnitFactory
+size: 5
+consumes: {
+  power: 30
+  liquid: cryofluid/3
+}
+liquidCapacity: 180
+plans: [
+  {
+    unit: reign
+    requirements: [
+      silicon/1000
+      plastanium/600
+      surge-alloy/500
+      phase-fabric/350
+    ] 
+    time: 14400
+  }
+  {
+    unit: corvus
+    requirements: [
+      silicon/1000
+      plastanium/600
+      surge-alloy/500
+      phase-fabric/350
+    ] 
+    time: 14400
+  }
+  {
+    unit: toxopid
+    requirements: [
+      silicon/1000
+      plastanium/600
+      surge-alloy/500
+      phase-fabric/350
+    ] 
+    time: 14400
+  }
+  {
+    unit: eclipse
+    requirements: [
+      silicon/1000
+      plastanium/600
+      surge-alloy/500
+      phase-fabric/350
+    ] 
+    time: 14400
+  }
+  {
+    unit: oct
+    requirements: [
+      silicon/1000
+      plastanium/600
+      surge-alloy/500
+      phase-fabric/350
+    ] 
+    time: 14400
+  }
+  {
+    unit: omura
+    requirements: [
+      silicon/1000
+      plastanium/600
+      surge-alloy/500
+      phase-fabric/350
+    ] 
+    time: 14400
+  }
+]
+requirements: [
+  lead/6000
+  thorium/1500
+  silicon/4500
+  plastanium/900
+  phase-fabric/900
+  surge-alloy/1200
+  omega-alloy/400
+]
+category: units
+research: tetrative-reconstructor
