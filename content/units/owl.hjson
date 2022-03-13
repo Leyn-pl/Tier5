@@ -93,11 +93,11 @@ weapons: [
     status: sapped
     statusDuration: 600
     fragLifeMin: 0.3
-    fragBullets: 12
+    fragBullets: 8
     fragBullet: {
       type: ArtilleryBulletType
       speed: 2
-      damage: 80
+      damage: 60
       hitEffect: sapExplosion
       knockback: 0.8
       lifetime: 90
@@ -116,11 +116,11 @@ weapons: [
       status: sapped
       statusDuration: 420
       fragLifeMin: 0.3
-      fragBullets: 6
+      fragBullets: 4
       fragBullet: {
         type: ArtilleryBulletType
         speed: 1
-        damage: 40
+        damage: 30
         hitEffect: sapExplosion
         knockback: 0.4
         lifetime: 60
