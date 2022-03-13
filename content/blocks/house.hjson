@@ -1,0 +1,16 @@
+name: Military Base
+description: Increases unit limit by 1.
+type: storageBlock
+health: 420
+size: 2
+itemCapacity: 0
+unitCapModifier: 1
+requirements: [
+  copper/250
+  lead/250
+  graphite/100
+  silicon/250
+  plastanium/50
+]
+category: units
+research: core-shard
